@@ -1,0 +1,27 @@
+.Card {
+    flex: 1;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #ffffff;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+}
+
+.Card .Content {
+    padding: 5px 0px;
+    background-color: #000000;
+    color: #ffffff;
+    flex: 1;
+}
+
+.Card .Foolter {
+    color: #000000;
+    padding: 15px 0px;
+}
+.Card .Events {
+    color: #000000;
+    padding: 5px 0px;
+}
